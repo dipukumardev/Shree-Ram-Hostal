@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Branches - Shree RamBoys Hostal</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">Shree RamBoys</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="branches.html" class="active">Our Branches</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <header class="page-header">
+        <div class="container">
+            <h1>Our Branches</h1>
+            <p>Explore our premium locations across the city</p>
+        </div>
+    </header>
+
+    <main>
+        <section class="branches-intro">
+            <div class="container">
+                <p class="intro-text">Shree RamBoys Hostal has expanded to multiple locations to serve students and professionals across different areas. Each of our branches maintains the same high standards of comfort, cleanliness, and community.</p>
+                <div class="branch-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">5+</span>
+                        <span class="stat-text">Branches</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">300+</span>
+                        <span class="stat-text">Rooms</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">500+</span>
+                        <span class="stat-text">Happy Residents</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">10+</span>
+                        <span class="stat-text">Years Experience</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="branch-filter">
+            <div class="container">
+                <h2 class="section-title">Find Your Perfect Location</h2>
+                <div class="filter-options">
+                    <button class="filter-btn active" data-filter="all">All Branches</button>
+                    <button class="filter-btn" data-filter="student">Student Hostels</button>
+                    <button class="filter-btn" data-filter="professional">Professional PGs</button>
+                    <button class="filter-btn" data-filter="premium">Premium Accommodations</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="branches-list">
+            <div class="container">
+                <div class="branch-card" data-category="student premium">
+                    <div class="branch-image">
+                        <img src="https://images.unsplash.com/photo-1555854877-bab0e564b8d5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&h=300&q=80" alt="Main Branch">
+                        <div class="branch-badge">Premium</div>
+                    </div>
+                    <div class="branch-details">
+                        <h2>Main Branch - City Center</h2>
+                        <div class="branch-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>(4.5/5 based on 120 reviews)</span>
+                        </div>
+                        <div class="branch-info">
+                            <p><i class="fas fa-map-marker-alt"></i> 123 Main Street, City Center</p>
+                            <p><i class="fas fa-phone"></i> +91 9876543210</p>
+                            <p><i class="fas fa-envelope"></i> main@shreeramboys.com</p>
+                        </div>
+                        <div class="branch-features">
+                            <h3>Features:</h3>
+                            <ul>
+                                <li><i class="fas fa-check"></i> 100+ rooms</li>
+                                <li><i class="fas fa-check"></i> In-house dining facility</li>
+                                <li><i class="fas fa-check"></i> Study rooms</li>
+                                <li><i class="fas fa-check"></i> Recreation area</li>
+                                <li><i class="fas fa-check"></i> 24/7 security</li>
+                                <li><i class="fas fa-check"></i> High-speed WiFi</li>
+                                <li><i class="fas fa-check"></i> AC rooms available</li>
+                                <li><i class="fas fa-check"></i> Laundry service</li>
+                            </ul>
+                        </div>
+                        <div class="branch-availability">
+                            <span class="availability-badge available">Rooms Available</span>
+                            <p>Starting from ₹8,000/month</p>
+                        </div>
+                        <div class="branch-actions">
+                            <a href="contact.html" class="btn-primary">Book Now</a>
+                            <button class="btn-secondary virtual-tour-btn" data-branch="main"><i class="fas fa-street-view"></i> Virtual Tour</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="branch-card" data-category="student">
+                    <div class="branch-image">
+                        <img src="https://images.unsplash.com/photo-1555854877-bab0e564b8d5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&h=300&q=80" alt="University Branch">
+                        <div class="branch-badge">Student Special</div>
+                    </div>
+                    <div class="branch-details">
+                        <h2>University Branch</h2>
+                        <div class="branch-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <span>(4.0/5 based on 85 reviews)</span>
+                        </div>
+                        <div class="branch-info">
+                            <p><i class="fas fa-map-marker-alt"></i> 45 College Road, University Area</p>
+                            <p><i class="fas fa-phone"></i> +91 9876543211</p>
+                            <p><i class="fas fa-envelope"></i> university@shreeramboys.com</p>
+                        </div>
+                        <div class="branch-features">
+                            <h3>Features:</h3>
+                            <ul>
+                                <li><i class="fas fa-check"></i> 75+ rooms</li>
+                                <li><i class="fas fa-check"></i> In-house dining facility</li>
+                                <li><i class="fas fa-check"></i> Study rooms</li>
+                                <li><i class="fas fa-check"></i> Library</li>
+                                <li><i class="fas fa-check"></i> 24/7 security</li>
+                                <li><i class="fas fa-check"></i> WiFi</li>
+                                <li><i class="fas fa-check"></i> Student community events</li>
+                                <li><i class="fas fa-check"></i> Exam preparation support</li>
+                            </ul>
+                        </div>
+                        <div class="branch-availability">
+                            <span class="availability-badge limited">Limited Availability</span>
+                            <p>Starting from ₹6,500/month</p>
+                        </div>
+                        <div class="branch-actions">
+                            <a href="contact.html" class="btn-primary">Book Now</a>
+                            <button class="btn-secondary virtual-tour-btn" data-branch="university"><i class="fas fa-street-view"></i> Virtual Tour</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="branch-card" data-category="professional premium">
+                    <div class="branch-image">
+                        <img src="https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&h=300&q=80" alt="Tech Park Branch">
+                        <div class="branch-badge">Professional</div>
+                    </div>
+                    <div class="branch-details">
+                        <h2>Tech Park Branch</h2>
+                        <div class="branch-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(4.8/5 based on 95 reviews)</span>
+                        </div>
+                        <div class="branch-info">
+                            <p><i class="fas fa-map-marker-alt"></i> 78 Innovation Drive, Tech Park</p>
+                            <p><i class="fas fa-phone"></i> +91 9876543212</p>
+                            <p><i class="fas fa-envelope"></i> techpark@shreeramboys.com</p>
+                        </div>
+                        <div class="branch-features">
+                            <h3>Features:</h3>
+                            <ul>
+                                <li><i class="fas fa-check"></i> 50+ rooms</li>
+                                <li><i class="fas fa-check"></i> In-house dining facility</li>
+                                <li><i class="fas fa-check"></i> Co-working space</li>
+                                <li><i class="fas fa-check"></i> Gym</li>
+                                <li><i class="fas fa-check"></i> 24/7 security</li>
+                                <li><i class="fas fa-check"></i> High-speed WiFi</li>
+                                <li><i class="fas fa-check"></i> AC rooms</li>
+                                <li><i class="fas fa-check"></i> Attached bathrooms</li>
+                            </ul>
+                        </div>
+                        <div class="branch-availability">
+                            <span class="availability-badge available">Rooms Available</span>
+                            <p>Starting from ₹9,500/month</p>
+                        </div>
+                        <div class="branch-actions">
+                            <a href="contact.html" class="btn-primary">Book Now</a>
+                            <button class="btn-secondary virtual-tour-btn" data-branch="techpark"><i class="fas fa-street-view"></i> Virtual Tour</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="branch-card" data-category="premium">
+                    <div class="branch-image">
+                        <img src="https://images.unsplash.com/photo-1493809842364-78817add7ffb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&h=300&q=80" alt="Luxury Branch">
+                        <div class="branch-badge">Luxury</div>
+                    </div>
+                    <div class="branch-details">
+                        <h2>Riverside Luxury Branch</h2>
+                        <div class="branch-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(4.9/5 based on 75 reviews)</span>
+                        </div>
+                        <div class="branch-info">
+                            <p><i class="fas fa-map-marker-alt"></i> 22 Riverside Avenue, Luxury District</p>
+                            <p><i class="fas fa-phone"></i> +91 9876543213</p>
+                            <p><i class="fas fa-envelope"></i> luxury@shreeramboys.com</p>
+                        </div>
+                        <div class="branch-features">
+                            <h3>Features:</h3>
+                            <ul>
+                                <li><i class="fas fa-check"></i> 30+ premium rooms</li>
+                                <li><i class="fas fa-check"></i> Gourmet dining</li>
+                                <li><i class="fas fa-check"></i> Swimming pool</li>
+                                <li><i class="fas fa-check"></i> Premium gym</li>
+                                <li><i class="fas fa-check"></i> 24/7 security with CCTV</li>
+                                <li><i class="fas fa-check"></i> Ultra-fast WiFi</li>
+                                <li><i class="fas fa-check"></i> Fully furnished AC rooms</li>
+                                <li><i class="fas fa-check"></i> Housekeeping service</li>
+                            </ul>
+                        </div>
+                        <div class="branch-availability">
+                            <span class="availability-badge limited">Limited Availability</span>
+                            <p>Starting from ₹15,000/month</p>
+                        </div>
+                        <div class="branch-actions">
+                            <a href="contact.html" class="btn-primary">Book Now</a>
+                            <button class="btn-secondary virtual-tour-btn" data-branch="luxury"><i class="fas fa-street-view"></i> Virtual Tour</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="branch-card" data-category="professional">
+                    <div class="branch-image">
+                        <img src="https://images.unsplash.com/photo-1560448204-603b3fc33ddc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&h=300&q=80" alt="Business District Branch">
+                        <div class="branch-badge">Professional</div>
+                    </div>
+                    <div class="branch-details">
+                        <h2>Business District Branch</h2>
+                        <div class="branch-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <span>(4.2/5 based on 60 reviews)</span>
+                        </div>
+                        <div class="branch-info">
+                            <p><i class="fas fa-map-marker-alt"></i> 56 Commerce Street, Business District</p>
+                            <p><i class="fas fa-phone"></i> +91 9876543214</p>
+                            <p><i class="fas fa-envelope"></i> business@shreeramboys.com</p>
+                        </div>
+                        <div class="branch-features">
+                            <h3>Features:</h3>
+                            <ul>
+                                <li><i class="fas fa-check"></i> 40+ rooms</li>
+                                <li><i class="fas fa-check"></i> Breakfast & dinner</li>
+                                <li><i class="fas fa-check"></i> Business center</li>
+                                <li><i class="fas fa-check"></i> Conference room</li>
+                                <li><i class="fas fa-check"></i> 24/7 security</li>
+                                <li><i class="fas fa-check"></i> High-speed WiFi</li>
+                                <li><i class="fas fa-check"></i> Laundry service</li>
+                                <li><i class="fas fa-check"></i> Parking space</li>
+                            </ul>
+                        </div>
+                        <div class="branch-availability">
+                            <span class="availability-badge available">Rooms Available</span>
+                            <p>Starting from ₹8,500/month</p>
+                        </div>
+                        <div class="branch-actions">
+                            <a href="contact.html" class="btn-primary">Book Now</a>
+                            <button class="btn-secondary virtual-tour-btn" data-branch="business"><i class="fas fa-street-view"></i> Virtual Tour</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="comparison-section">
+            <div class="container">
+                <h2 class="section-title">Branch Comparison</h2>
+                <div class="comparison-table-container">
+                    <table class="comparison-table">
+                        <thead>
+                            <tr>
+                                <th>Features</th>
+                                <th>Main Branch</th>
+                                <th>University Branch</th>
+                                <th>Tech Park Branch</th>
+                                <th>Riverside Luxury</th>
+                                <th>Business District</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Monthly Rent</td>
+                                <td>₹8,000 - ₹12,000</td>
+                                <td>₹6,500 - ₹9,000</td>
+                                <td>₹9,500 - ₹14,000</td>
+                                <td>₹15,000 - ₹25,000</td>
+                                <td>₹8,500 - ₹13,000</td>
+                            </tr>
+                            <tr>
+                                <td>Room Types</td>
+                                <td>Single, Double, Triple</td>
+                                <td>Double, Triple, Quad</td>
+                                <td>Single, Double</td>
+                                <td>Single, Suite</td>
+                                <td>Single, Double</td>
+                            </tr>
+                            <tr>
+                                <td>AC Rooms</td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-times"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td>Food</td>
+                                <td>3 meals</td>
+                                <td>3 meals</td>
+                                <td>3 meals</td>
+                                <td>Gourmet meals</td>
+                                <td>Breakfast & Dinner</td>
+                            </tr>
+                            <tr>
+                                <td>WiFi</td>
+                                <td>High-speed</td>
+                                <td>Standard</td>
+                                <td>High-speed</td>
+                                <td>Ultra-fast</td>
+                                <td>High-speed</td>
+                            </tr>
+                            <tr>
+                                <td>Gym</td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-times"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td>Premium Gym</td>
+                                <td><i class="fas fa-times"></i></td>
+                            </tr>
+                            <tr>
+                                <td>Study Area</td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td>Distance from City Center</td>
+                                <td>0 km</td>
+                                <td>5 km</td>
+                                <td>8 km</td>
+                                <td>3 km</td>
+                                <td>2 km</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <section class="map-section">
+            <div class="container">
+                <h2 class="section-title">Find Us on the Map</h2>
+                <div class="map-container">
+                    <!-- Replace with actual map embed code -->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.2!2d-73.9!3d40.7!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDQyJzAwLjAiTiA3M8KwNTQnMDAuMCJX!5e0!3m2!1sen!2sus!4v1620000000000!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </section>
+
+        <section class="virtual-tour-modal" id="virtualTourModal">
+            <div class="modal-content">
+                <span class="close-modal">&times;</span>
+                <h2>Virtual Tour</h2>
+                <div class="tour-content">
+                    <p>Loading virtual tour...</p>
+                    <!-- Virtual tour content will be loaded here via JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <section class="cta">
+            <div class="container">
+                <h2>Ready to Book Your Stay?</h2>
+                <p>Contact us today to check availability at any of our branches.</p>
+                <a href="contact.html" class="btn-primary">Contact Us</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section about">
+                    <h3>About Shree RamBoys</h3>
+                    <p>Providing quality accommodation for students and working professionals since 2010.</p>
+                    <div class="contact">
+                        <span><i class="fas fa-phone"></i> +91 9876543210</span>
+                        <span><i class="fas fa-envelope"></i> info@shreeramboys.com</span>
+                    </div>
+                    <div class="socials">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="branches.html">Our Branches</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section contact-form">
+                    <h3>Contact Us</h3>
+                    <form action="#" method="post">
+                        <input type="email" name="email" class="contact-input" placeholder="Your email address...">
+                        <textarea name="message" class="contact-input" placeholder="Your message..."></textarea>
+                        <button type="submit" class="btn-primary btn-contact">Send</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                &copy; 2025 Shree RamBoys Hostal | All rights reserved
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
