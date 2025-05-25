@@ -102,6 +102,21 @@ img {
     font-size: 1.8rem;
     font-weight: 700;
     color: #ff6b6b;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    max-height: 50px;
+    margin-right: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.logo img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 }
 
 .nav-links {
@@ -1224,6 +1239,28 @@ img {
     transform: translateY(-3px);
 }
 
+.contact a {
+    color: #ff6b6b;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.contact a:hover {
+    color: #ff5252;
+    text-decoration: underline;
+}
+
+.contact-card a {
+    color: #ff6b6b;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.contact-card a:hover {
+    color: #ff5252;
+    text-decoration: underline;
+}
+
 .contact-form-section {
     padding: 80px 0;
     background-color: #f8f9fa;
@@ -1327,6 +1364,25 @@ img {
     padding: 80px 0 0;
 }
 
+.footer-logo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.footer-logo img {
+    max-height: 60px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    margin-right: 10px;
+}
+
+.footer-logo img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
 .footer-content {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -1365,6 +1421,23 @@ img {
 }
 
 .footer-section.about .contact i {
+    margin-right: 10px;
+    color: #ff6b6b;
+}
+
+.footer .contact {
+    margin: 15px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer .contact span {
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.footer .contact span i {
     margin-right: 10px;
     color: #ff6b6b;
 }
